@@ -13,5 +13,11 @@
     </head>
     <body>
         <h1>Hello World!</h1>
+        <h2>View Note</h2>
+        
+        <div>Title: ${note.title}</div>
+        <div>Contents: ${note.content}</div>
+        
+        <a href="note?edit" name="edit">Edit</a>
     </body>
 </html>
