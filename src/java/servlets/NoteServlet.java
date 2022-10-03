@@ -32,7 +32,7 @@ public class NoteServlet extends HttpServlet {
     @Override
     protected void doPost(HttpServletRequest request, HttpServletResponse response)
             throws ServletException, IOException {
-        //gets user inputted values for "title" and "content"
+       
         String saveTitle = request.getParameter("title");
         String saveContent = request.getParameter("content");
         
